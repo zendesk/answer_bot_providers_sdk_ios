@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.1.3'
   s.source       = { :git => "https://github.com/zendesk/answer_bot_providers_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'AnswerBotProvidersSDK.framework'
-  s.dependency 'ZendeskSupportProvidersSDK', '~> 1.0.0'
+  s.dependency 'ZendeskSupportProvidersSDK', '~> 5.0.1'
 end
