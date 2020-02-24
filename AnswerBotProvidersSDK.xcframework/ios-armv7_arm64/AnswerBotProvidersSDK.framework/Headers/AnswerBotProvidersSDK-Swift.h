@@ -257,9 +257,9 @@ enum ZDKRejectionReason : NSInteger;
 - (void)getDeflectionForQueryWithQuery:(NSString * _Nonnull)query callback:(void (^ _Nonnull)(ZDKDeflectionResponse * _Nullable, NSError * _Nullable))callback;
 /// Marks a DeflectionArticle as helpful and indicates that the article successfully
 /// resolved the users issue.
-/// \param deflectionID the deflectionID
+/// \param deflectionId the deflectionId
 ///
-/// \param articleID the articleID that successfully resolved the users issue.
+/// \param articleId the articleId that successfully resolved the users issue.
 ///
 /// \param interactionAccessToken InteractionAccessToken from DeflectionResponse
 ///
@@ -267,9 +267,9 @@ enum ZDKRejectionReason : NSInteger;
 ///
 - (void)resolveWithArticleWithDeflectionId:(int64_t)deflectionId articleId:(int64_t)articleId interactionAccessToken:(NSString * _Nonnull)interactionAccessToken callback:(void (^ _Nonnull)(ZDKAnswerBotDispatcherResponse * _Nullable, NSError * _Nullable))callback;
 /// Marks a deflection article as unhelpful and indicates that it did not resolve the user’s issue
-/// \param deflectionID The deflectionID
+/// \param deflectionId The deflectionId
 ///
-/// \param articleID The articleID that did not resolve the users issue
+/// \param articleId The articleId that did not resolve the users issue
 ///
 /// \param interactionAccessToken InteractionAccessToken from DeflectionResponse
 ///
@@ -609,9 +609,9 @@ enum ZDKRejectionReason : NSInteger;
 - (void)getDeflectionForQueryWithQuery:(NSString * _Nonnull)query callback:(void (^ _Nonnull)(ZDKDeflectionResponse * _Nullable, NSError * _Nullable))callback;
 /// Marks a DeflectionArticle as helpful and indicates that the article successfully
 /// resolved the users issue.
-/// \param deflectionID the deflectionID
+/// \param deflectionId the deflectionId
 ///
-/// \param articleID the articleID that successfully resolved the users issue.
+/// \param articleId the articleId that successfully resolved the users issue.
 ///
 /// \param interactionAccessToken InteractionAccessToken from DeflectionResponse
 ///
@@ -619,9 +619,9 @@ enum ZDKRejectionReason : NSInteger;
 ///
 - (void)resolveWithArticleWithDeflectionId:(int64_t)deflectionId articleId:(int64_t)articleId interactionAccessToken:(NSString * _Nonnull)interactionAccessToken callback:(void (^ _Nonnull)(ZDKAnswerBotDispatcherResponse * _Nullable, NSError * _Nullable))callback;
 /// Marks a deflection article as unhelpful and indicates that it did not resolve the user’s issue
-/// \param deflectionID The deflectionID
+/// \param deflectionId The deflectionId
 ///
-/// \param articleID The articleID that did not resolve the users issue
+/// \param articleId The articleId that did not resolve the users issue
 ///
 /// \param interactionAccessToken InteractionAccessToken from DeflectionResponse
 ///
