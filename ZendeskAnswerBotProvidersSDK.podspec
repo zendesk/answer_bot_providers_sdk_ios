@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskAnswerBotProvidersSDK"
-  s.version      = "2.1.1"
+  s.version      = "2.1.2"
   s.summary      = "ZendeskAnswerBotProvidersSDK #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/embeddables"
   s.license      = {
@@ -18,9 +18,12 @@ Pod::Spec.new do |s|
   s.author       = 'Zendesk'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '5.2.4'
+  s.swift_version = '5.3'
+  s.cocoapods_version = '>= 1.9.3'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.source       = { :git => "https://github.com/zendesk/answer_bot_providers_sdk_ios.git", :tag => s.version }
-  s.vendored_frameworks = 'AnswerBotProvidersSDK.framework'
-  s.preserve_paths = 'AnswerBotProvidersSDK.framework', 'AnswerBotProvidersSDK.dSYMs/*.dSYM'
-  s.dependency 'ZendeskSupportProvidersSDK', '~> 5.1.1'
+  s.vendored_frameworks = 'AnswerBotProvidersSDK.xcframework'
+  s.preserve_paths = 'AnswerBotProvidersSDK.xcframework', 'AnswerBotProvidersSDK.dSYMs/*.dSYM'
+  s.dependency 'ZendeskSupportProvidersSDK', '~> 5.2.0'
 end
