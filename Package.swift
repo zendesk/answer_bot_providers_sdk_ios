@@ -23,7 +23,7 @@ let package = Package(
             name: "ZendeskAnswerBotProvidersSDK",
             path: "AnswerBotProvidersSDK.xcframework"
         ),
-        .target(name: "ZendeskSupportSDKTargets",
+        .target(name: "ZendeskAnswerBotProvidersSDKTargets",
                 dependencies: [
                     .target(name: "ZendeskAnswerBotProvidersSDK"),
                     .product(name: "ZendeskSupportProvidersSDK", package: "ZendeskSupportProvidersSDK")
