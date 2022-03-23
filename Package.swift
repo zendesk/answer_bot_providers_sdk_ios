@@ -16,16 +16,16 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSupportProvidersSDK",
                  url: "https://github.com/zendesk/support_providers_sdk_ios",
-                 .exact("5.4.0"))
+                 .branch("bugfix/Xcode13.3-SPM-integration"))
     ],
     targets: [
         .binaryTarget(
-            name: "ZendeskAnswerBotProvidersSDK",
+            name: "AnswerBotProvidersSDK",
             path: "AnswerBotProvidersSDK.xcframework"
         ),
         .target(name: "ZendeskAnswerBotProvidersSDKTargets",
                 dependencies: [
-                    .target(name: "ZendeskAnswerBotProvidersSDK"),
+                    .target(name: "AnswerBotProvidersSDK"),
                     .product(name: "ZendeskSupportProvidersSDK", package: "ZendeskSupportProvidersSDK")
                 ],
                 path: "Sources"
