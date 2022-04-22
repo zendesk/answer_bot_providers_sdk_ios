@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ji7SVTilCSa4u0STUFlKc2IM6Mc=
+		5Yi7ejaUuEe59tqyhhDwzu86sWs=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/g9FbGfJlI+KA2grBVKkKMXyrR0=
+		3jmhJ5N1/Bc1SuTlnW8o/f+PzZc=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/g9FbGfJlI+KA2grBVKkKMXyrR0=
+		3jmhJ5N1/Bc1SuTlnW8o/f+PzZc=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ugEOSpz6pOKwl5BxtSTMjpuRSGk=
+		ED9Az0pT13+Z9W5dS/lBSNaceXQ=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		ugEOSpz6pOKwl5BxtSTMjpuRSGk=
+		ED9Az0pT13+Z9W5dS/lBSNaceXQ=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PJHgT/Dv/+O0gdUq+QHRn+sfIgI=
+		8L4k+spsHWvcfjJPReecP2vH/j0=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		PJHgT/Dv/+O0gdUq+QHRn+sfIgI=
+		8L4k+spsHWvcfjJPReecP2vH/j0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -158,11 +158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/g9FbGfJlI+KA2grBVKkKMXyrR0=
+			3jmhJ5N1/Bc1SuTlnW8o/f+PzZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HoXvO8qLuFOGPLANLXB1R7+S+20nRGfCVE1HX0YpDDo=
+			azQBC/aOhjuW++g6O8k/b89OoWm8azyaxy/wiPAo9uc=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64.swiftdoc</key>
@@ -191,11 +191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/g9FbGfJlI+KA2grBVKkKMXyrR0=
+			3jmhJ5N1/Bc1SuTlnW8o/f+PzZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HoXvO8qLuFOGPLANLXB1R7+S+20nRGfCVE1HX0YpDDo=
+			azQBC/aOhjuW++g6O8k/b89OoWm8azyaxy/wiPAo9uc=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -224,11 +224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ugEOSpz6pOKwl5BxtSTMjpuRSGk=
+			ED9Az0pT13+Z9W5dS/lBSNaceXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6fUVzw094Dxiw7QFqXQKk0Dzy5RBS2DeTvcNwuqxTo=
+			LR4nbDIt8aZ5UeihP1qTPlN+eZb+tn/5EfvINss+VF0=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/i386.swiftdoc</key>
@@ -257,11 +257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ugEOSpz6pOKwl5BxtSTMjpuRSGk=
+			ED9Az0pT13+Z9W5dS/lBSNaceXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6fUVzw094Dxiw7QFqXQKk0Dzy5RBS2DeTvcNwuqxTo=
+			LR4nbDIt8aZ5UeihP1qTPlN+eZb+tn/5EfvINss+VF0=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -290,11 +290,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PJHgT/Dv/+O0gdUq+QHRn+sfIgI=
+			8L4k+spsHWvcfjJPReecP2vH/j0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nt9vPVXebq5IbbHsM1MVbvnDjzeTfFg4/tMQnlwyExw=
+			TGbjLBjqcNLOeIr0NPOGvUYnsi2djAmXZgLXtVdw9yM=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -323,11 +323,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PJHgT/Dv/+O0gdUq+QHRn+sfIgI=
+			8L4k+spsHWvcfjJPReecP2vH/j0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nt9vPVXebq5IbbHsM1MVbvnDjzeTfFg4/tMQnlwyExw=
+			TGbjLBjqcNLOeIr0NPOGvUYnsi2djAmXZgLXtVdw9yM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
