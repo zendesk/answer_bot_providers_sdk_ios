@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YFjvw/BYJEHuld0wBIsStOkORwU=
+		Rc6qIj2PCrPMZs96igTuTgczmss=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		U7RLc3iEeWWhC6Am3C5cSF0Mago=
+		6h1KJppui9FGs33Uxrxg9KzbU8A=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m+hCn2wHkoG2xr2Ura0D2HeFGv0=
+		L1nUxUN/3tK21XTaXEQeryU+kHA=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r5AXjTVQzJsvwEgB+AMfbmZsEuE=
+		E1+bowS2iVEOr1p0IrsVMyrzqiU=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QsD4E4gwYZPlVfbZArtT7wazVso=
+		ljtqzp7wKvfAxSpv1vp21Tym75U=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VfN+3o1nJjMHQYFPOkrnnnEJNXA=
+		FA5xZXJFZrd7VdOISXSI46gRMRc=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mKOauw94GT3s3VvDG7ZZ+8FQ/PU=
+		wRd5CDngUuvGQuAx5SB/sKOQNQA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,42 +76,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7zskgYAY6P2tWVBwH28Ta4Qfs9i5XqANiZuK2iOU8g=
+			c5v+/afPukTWLWuhmDn80shoPT3rUEQ9STCkpy6o3yE=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePQP/rHV0DnFccEnIwBg9pmjE2638/ia0tvFV/qednc=
+			yHM9qEMM2LNNL9nJcViBOs7gAlSerUcbBqdYvKAFuyQ=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3mgrBCmQ6Iyas1g/XB7BSWA3gIHlen5f1D+21ScJccU=
+			sBiO7g4Bh4J7T0G120YxIO1dVDKsqIWNnlipGCjQzk0=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xu+llTaw/aVeqyplKTqbjpU3W7JT34j30G9/1a6towo=
+			5VrqnMJIz72jPSHhqBPBBVcDulHmfIjtRpfaIVRSr3c=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1E1EeTn0aUpbJB+mHI3Uf8RJpgvQWxeTsac3/v2QRyc=
+			INnqZ+rjnDx8+0LBSSJZof+T1I97TPeiQX34gnUSw8s=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ROOlg7hWZktUltOqmZLyfqbb3gj9sgabNeFhgIhvQMw=
+			W28ydNKRJHMT4YPS5HrxQ+kb+ku9uK+PSfXetSMspcM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
