@@ -1,0 +1,4314 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotSettings",
+        "printedName": "AnswerBotSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabled",
+            "printedName": "enabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings(py)enabled",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC7enabledSbvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings(im)enabled",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC7enabledSbvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotSettings",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK0aB8SettingsC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotSettings",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings(im)init",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsCACycfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Required",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotSettings",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21AnswerBotProvidersSDK0aB8SettingsC7defaultACvpZ",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC7defaultACvpZ",
+            "moduleName": "AnswerBotProvidersSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnswerBotSettings",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21AnswerBotProvidersSDK0aB8SettingsC7defaultACvgZ",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC7defaultACvgZ",
+                "moduleName": "AnswerBotProvidersSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB8SettingsC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKAnswerBotSettings",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DecodableDefault",
+            "printedName": "DecodableDefault",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DefaultType",
+                "printedName": "DefaultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnswerBotSettings",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:14ZendeskCoreSDK16DecodableDefaultP",
+            "mangledName": "$s14ZendeskCoreSDK16DecodableDefaultP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeflectionArticle",
+        "printedName": "DeflectionArticle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)id",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC2ids5Int64Vvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)id",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC2ids5Int64Vvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)title",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC5titleSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)title",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC5titleSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "htmlURL",
+            "printedName": "htmlURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)htmlURL",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7htmlURLSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)htmlURL",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7htmlURLSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)url",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC3urlSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)url",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC3urlSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "labelNames",
+            "printedName": "labelNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)labelNames",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC10labelNamesSaySSGSgvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)labelNames",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC10labelNamesSaySSGSgvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)body",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC4bodySSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)body",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC4bodySSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "articleId",
+            "printedName": "articleId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)articleId",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC9articleIds5Int64Vvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)articleId",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC9articleIds5Int64Vvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locale",
+            "printedName": "locale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)locale",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC6localeSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)locale",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC6localeSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brandId",
+            "printedName": "brandId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)brandId",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7brandIds5Int64Vvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)brandId",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7brandIds5Int64Vvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "score",
+            "printedName": "score",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)score",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC5scoreSdvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)score",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC5scoreSdvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "snippet",
+            "printedName": "snippet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(py)snippet",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7snippetSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)snippet",
+                "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7snippetSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:title:htmlURL:url:labelNames:body:articleId:locale:brandId:score:snippet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeflectionArticle",
+                "printedName": "AnswerBotProvidersSDK.DeflectionArticle",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK17DeflectionArticleC2id5title7htmlURL3url10labelNames4body9articleId6locale05brandP05score7snippetACs5Int64V_S3SSaySSGSSAPSSAPSdSStcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC2id5title7htmlURL3url10labelNames4body9articleId6locale05brandP05score7snippetACs5Int64V_S3SSaySSGSSAPSSAPSdSStcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)isEqual:",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC7isEqualySbypSgF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeflectionArticle",
+                "printedName": "AnswerBotProvidersSDK.DeflectionArticle",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle(im)init",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleCACycfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeflectionArticle",
+                "printedName": "AnswerBotProvidersSDK.DeflectionArticle",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK17DeflectionArticleC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK17DeflectionArticleC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle",
+        "mangledName": "$s21AnswerBotProvidersSDK17DeflectionArticleC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKDeflectionArticle",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SupportProvidersSDK",
+        "printedName": "SupportProvidersSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotProviderProtocol",
+        "printedName": "AnswerBotProviderProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDeflectionForQuery",
+            "printedName": "getDeflectionForQuery(query:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.DeflectionResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.DeflectionResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeflectionResponse",
+                        "printedName": "AnswerBotProvidersSDK.DeflectionResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB16ProviderProtocolP21getDeflectionForQuery5query8callbackySS_ys6ResultOyAA0H8ResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB16ProviderProtocolP21getDeflectionForQuery5query8callbackySS_ys6ResultOyAA0H8ResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveWithArticle",
+            "printedName": "resolveWithArticle(deflectionId:articleId:interactionAccessToken:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotDispatcherResponse",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB16ProviderProtocolP18resolveWithArticle12deflectionId07articleK022interactionAccessToken8callbackys5Int64V_AJSSys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB16ProviderProtocolP18resolveWithArticle12deflectionId07articleK022interactionAccessToken8callbackys5Int64V_AJSSys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rejectWithArticle",
+            "printedName": "rejectWithArticle(deflectionId:articleId:interactionAccessToken:reason:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RejectionReason",
+                "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotDispatcherResponse",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB16ProviderProtocolP17rejectWithArticle12deflectionId07articleK022interactionAccessToken6reason8callbackys5Int64V_AKSSAA15RejectionReasonOys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB16ProviderProtocolP17rejectWithArticle12deflectionId07articleK022interactionAccessToken6reason8callbackys5Int64V_AKSSAA15RejectionReasonOys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : AnswerBotProvidersSDK.AnswerBotProviderProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21AnswerBotProvidersSDK0aB16ProviderProtocolP",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB16ProviderProtocolP",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotProvider",
+        "printedName": "AnswerBotProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getDeflectionForQuery",
+            "printedName": "getDeflectionForQuery(query:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.DeflectionResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.DeflectionResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeflectionResponse",
+                        "printedName": "AnswerBotProvidersSDK.DeflectionResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB8ProviderC21getDeflectionForQuery5query8callbackySS_ys6ResultOyAA0G8ResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8ProviderC21getDeflectionForQuery5query8callbackySS_ys6ResultOyAA0G8ResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveWithArticle",
+            "printedName": "resolveWithArticle(deflectionId:articleId:interactionAccessToken:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotDispatcherResponse",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB8ProviderC18resolveWithArticle12deflectionId07articleJ022interactionAccessToken8callbackys5Int64V_AJSSys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8ProviderC18resolveWithArticle12deflectionId07articleJ022interactionAccessToken8callbackys5Int64V_AJSSys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rejectWithArticle",
+            "printedName": "rejectWithArticle(deflectionId:articleId:interactionAccessToken:reason:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RejectionReason",
+                "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                "hasDefaultArg": true,
+                "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AnswerBotProvidersSDK.AnswerBotDispatcherResponse, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotDispatcherResponse",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB8ProviderC17rejectWithArticle12deflectionId07articleJ022interactionAccessToken6reason8callbackys5Int64V_AKSSAA15RejectionReasonOys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8ProviderC17rejectWithArticle12deflectionId07articleJ022interactionAccessToken6reason8callbackys5Int64V_AKSSAA15RejectionReasonOys6ResultOyAA0aB18DispatcherResponseCs5Error_pGctF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotProvider",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotProvider",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotProvider(im)init",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB8ProviderCACycfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotProvider",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB8ProviderC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKAnswerBotProvider",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnswerBotProviderProtocol",
+            "printedName": "AnswerBotProviderProtocol",
+            "usr": "s:21AnswerBotProvidersSDK0aB16ProviderProtocolP",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB16ProviderProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RejectionReason",
+        "printedName": "RejectionReason",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnswerBotProvidersSDK.RejectionReason.Type) -> AnswerBotProvidersSDK.RejectionReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RejectionReason",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                    "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RejectionReason",
+                        "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                        "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason@ZDKRejectionReasonUnknown",
+            "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO7unknownyA2CmF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "notRelated",
+            "printedName": "notRelated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnswerBotProvidersSDK.RejectionReason.Type) -> AnswerBotProvidersSDK.RejectionReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RejectionReason",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                    "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RejectionReason",
+                        "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                        "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason@ZDKRejectionReasonNotRelated",
+            "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO10notRelatedyA2CmF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "relatedButDidntAnswer",
+            "printedName": "relatedButDidntAnswer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnswerBotProvidersSDK.RejectionReason.Type) -> AnswerBotProvidersSDK.RejectionReason",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RejectionReason",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                    "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RejectionReason",
+                        "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                        "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason@ZDKRejectionReasonRelatedButDidntAnswer",
+            "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO015relatedButDidntA0yA2CmF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21AnswerBotProvidersSDK15RejectionReasonO8rawValueSivp",
+            "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO8rawValueSivp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21AnswerBotProvidersSDK15RejectionReasonO8rawValueSivg",
+                "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO8rawValueSivg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnswerBotProvidersSDK.RejectionReason?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RejectionReason",
+                    "printedName": "AnswerBotProvidersSDK.RejectionReason",
+                    "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK15RejectionReasonO8rawValueACSgSi_tcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO8rawValueACSgSi_tcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AnswerBotProvidersSDK@E@ZDKRejectionReason",
+        "mangledName": "$s21AnswerBotProvidersSDK15RejectionReasonO",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKRejectionReason",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeflectionResponse",
+        "printedName": "DeflectionResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deflection",
+            "printedName": "deflection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Deflection",
+                "printedName": "AnswerBotProvidersSDK.Deflection",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(py)deflection",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC10deflectionAA0E0Cvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Deflection",
+                    "printedName": "AnswerBotProvidersSDK.Deflection",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(im)deflection",
+                "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC10deflectionAA0E0Cvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deflectionArticles",
+            "printedName": "deflectionArticles",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[AnswerBotProvidersSDK.DeflectionArticle]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DeflectionArticle",
+                    "printedName": "AnswerBotProvidersSDK.DeflectionArticle",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(py)deflectionArticles",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC18deflectionArticlesSayAA0E7ArticleCGvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[AnswerBotProvidersSDK.DeflectionArticle]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DeflectionArticle",
+                        "printedName": "AnswerBotProvidersSDK.DeflectionArticle",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionArticle"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(im)deflectionArticles",
+                "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC18deflectionArticlesSayAA0E7ArticleCGvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "interactionAccessToken",
+            "printedName": "interactionAccessToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(py)interactionAccessToken",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC22interactionAccessTokenSSvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(im)interactionAccessToken",
+                "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC22interactionAccessTokenSSvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse(im)isEqual:",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC7isEqualySbypSgF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeflectionResponse",
+                "printedName": "AnswerBotProvidersSDK.DeflectionResponse",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK18DeflectionResponseC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK18DeflectionResponseC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflectionResponse",
+        "mangledName": "$s21AnswerBotProvidersSDK18DeflectionResponseC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKDeflectionResponse",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SupportProvidersSDK",
+        "printedName": "SupportProvidersSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Deflection",
+        "printedName": "Deflection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deflectionID",
+            "printedName": "deflectionID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection(py)deflectionID",
+            "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC12deflectionIDs5Int64Vvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection(im)deflectionID",
+                "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC12deflectionIDs5Int64Vvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection(im)isEqual:",
+            "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC7isEqualySbypSgF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Deflection",
+                "printedName": "AnswerBotProvidersSDK.Deflection",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK10DeflectionC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK10DeflectionC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC6encode2toys7Encoder_p_tKF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKDeflection",
+        "mangledName": "$s21AnswerBotProvidersSDK10DeflectionC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKDeflection",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SupportProvidersSDK",
+        "printedName": "SupportProvidersSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBot",
+        "printedName": "AnswerBot",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "provider",
+            "printedName": "provider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotProvider",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotProvider",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotProvider"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(py)provider",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB0C8providerAA0aB8ProviderCvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnswerBotProvider",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBotProvider",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotProvider"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(im)provider",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB0C8providerAA0aB8ProviderCvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(withZendesk:support:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZendeskCoreSDK.Zendesk?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Zendesk",
+                    "printedName": "ZendeskCoreSDK.Zendesk",
+                    "usr": "c:@M@ZendeskCoreSDK@objc(cs)ZDKClassicZendesk"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Support",
+                "printedName": "SupportProvidersSDK.Support",
+                "usr": "c:@M@SupportProvidersSDK@objc(cs)ZDKSupport"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(cm)initializeWithZendesk:support:",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB0C10initialize11withZendesk7supporty0g4CoreD00G0CSg_07SupportcD00J0CtFZ",
+            "moduleName": "AnswerBotProvidersSDK",
+            "static": true,
+            "objc_name": "initializeWithZendesk:support:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AnswerBotProvidersSDK.AnswerBot?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnswerBot",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBot",
+                    "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(cpy)instance",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB0C8instanceACSgvpZ",
+            "moduleName": "AnswerBotProvidersSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBot?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBot",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBot",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(cm)instance",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB0C8instanceACSgvgZ",
+                "moduleName": "AnswerBotProvidersSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBot",
+                "printedName": "AnswerBotProvidersSDK.AnswerBot",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot(im)init",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB0CACycfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBot",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB0C",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKAnswerBot",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZendeskCoreSDK",
+        "printedName": "ZendeskCoreSDK",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotSettingsProviderProtocol",
+        "printedName": "AnswerBotSettingsProviderProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSettings",
+            "printedName": "getSettings(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnswerBotProvidersSDK.AnswerBotSettings?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBotSettings?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotSettings",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP03getE08callbackyyAA0abE0CSgc_tFZ",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP03getE08callbackyyAA0abE0CSgc_tFZ",
+            "moduleName": "AnswerBotProvidersSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnswerBotProvidersSDK.AnswerBotSettingsProviderProtocol>",
+            "sugared_genericSig": "<Self where Self : AnswerBotProvidersSDK.AnswerBotSettingsProviderProtocol>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotSettingsProvider",
+        "printedName": "AnswerBotSettingsProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSettings",
+            "printedName": "getSettings(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AnswerBotProvidersSDK.AnswerBotSettings?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnswerBotProvidersSDK.AnswerBotSettings?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnswerBotSettings",
+                        "printedName": "AnswerBotProvidersSDK.AnswerBotSettings",
+                        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettings"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettingsProvider(cm)getSettingsWithCallback:",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB16SettingsProviderC03getE08callbackyyAA0abE0CSgc_tFZ",
+            "moduleName": "AnswerBotProvidersSDK",
+            "static": true,
+            "objc_name": "getSettingsWithCallback:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotSettingsProvider",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB16SettingsProviderC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKAnswerBotSettingsProvider",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnswerBotSettingsProviderProtocol",
+            "printedName": "AnswerBotSettingsProviderProtocol",
+            "usr": "s:21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB24SettingsProviderProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnswerBotDispatcherResponse",
+        "printedName": "AnswerBotDispatcherResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(py)response",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC8responseSo17NSHTTPURLResponseCvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPURLResponse",
+                    "printedName": "Foundation.HTTPURLResponse",
+                    "usr": "c:objc(cs)NSHTTPURLResponse"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(im)response",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC8responseSo17NSHTTPURLResponseCvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(py)data",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC4data10Foundation4DataVSgvp",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(im)data",
+                "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC4data10Foundation4DataVSgvg",
+                "moduleName": "AnswerBotProvidersSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(response:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotDispatcherResponse",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPURLResponse",
+                "printedName": "Foundation.HTTPURLResponse",
+                "usr": "c:objc(cs)NSHTTPURLResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21AnswerBotProvidersSDK0aB18DispatcherResponseC8response4dataACSo17NSHTTPURLResponseC_10Foundation4DataVSgtcfc",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC8response4dataACSo17NSHTTPURLResponseC_10Foundation4DataVSgtcfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isEqual",
+            "printedName": "isEqual(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(im)isEqual:",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC7isEqualySbypSgF",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "objc_name": "isEqual:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnswerBotDispatcherResponse",
+                "printedName": "AnswerBotProvidersSDK.AnswerBotDispatcherResponse",
+                "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse(im)init",
+            "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseCACycfc",
+            "moduleName": "AnswerBotProvidersSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AnswerBotProvidersSDK@objc(cs)ZDKAnswerBotDispatcherResponse",
+        "mangledName": "$s21AnswerBotProvidersSDK0aB18DispatcherResponseC",
+        "moduleName": "AnswerBotProvidersSDK",
+        "objc_name": "ZDKAnswerBotDispatcherResponse",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AnswerBotProvidersSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Settings\/AnswerBotSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 943,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 10,
+      "value": "\"html_url\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 13,
+      "value": "\"label_names\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 10,
+      "value": "\"brand_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 10,
+      "value": "\"html_url\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 13,
+      "value": "\"label_names\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 10,
+      "value": "\"brand_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2263,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionArticle.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 17,
+      "value": "\"AnswerBotProvidersSDK.DeflectionArticle\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Extensions\/Encodable+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Extensions\/Encodable+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Resources\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 681,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Resources\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 11,
+      "value": "\"AnswerBot\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Resources\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 890,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2711,
+      "length": 92,
+      "value": "\"Couldn't retrieve UUID for deflection interaction reference, no network call will be made.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2939,
+      "length": 46,
+      "value": "\"UUID for deflection: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 3839,
+      "length": 42,
+      "value": "\"Answer Bot is disabled at account level.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5770,
+      "length": 64,
+      "value": "\"Could not upvote article with id=\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5816,
+      "length": 1,
+      "value": "\". Error: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 5929,
+      "length": 42,
+      "value": "\"Answer Bot is disabled at account level.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7252,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 7832,
+      "length": 42,
+      "value": "\"Answer Bot is disabled at account level.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8882,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8911,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9720,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "Dictionary",
+      "offset": 9872,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10204,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10299,
+      "length": 24,
+      "value": "\"ZD_Answer_Bot_Disabled\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10331,
+      "length": 4,
+      "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "Dictionary",
+      "offset": 10347,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10629,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10663,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 10843,
+      "length": 23,
+      "value": "\"com.zendesk.answerbot\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11031,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11046,
+      "length": 40,
+      "value": "\"HTTP Error: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 11085,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/AnswerBotProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 17,
+      "value": "\"AnswerBotProvidersSDK.AnswerBotProvider\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 21,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "IntegerLiteral",
+      "offset": 705,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "IntegerLiteral",
+      "offset": 725,
+      "length": 21,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 15,
+      "value": "\"deflection_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 23,
+      "value": "\"resolution_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 11,
+      "value": "\"reason_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 15,
+      "value": "\"deflection_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 23,
+      "value": "\"resolution_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 11,
+      "value": "\"reason_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 15,
+      "value": "\"deflection_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 23,
+      "value": "\"resolution_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 15,
+      "value": "\"deflection_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 12,
+      "value": "\"article_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1561,
+      "length": 23,
+      "value": "\"resolution_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/ResolutionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/BundleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1509,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/BundleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/BundleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
+      "length": 13,
+      "value": "\"Localizable\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/BundleUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3020,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 21,
+      "value": "\"deflection_articles\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 21,
+      "value": "\"deflection_articles\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 26,
+      "value": "\"interaction_access_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/DeflectionResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/LocaleProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 981,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/EndpointsReader.swift",
+      "kind": "Array",
+      "offset": 1039,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/EndpointsReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 11,
+      "value": "\"Endpoints\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/EndpointsReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/EndpointsReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1377,
+      "length": 38,
+      "value": "\"Error: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/EndpointsReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/Deflection.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/Deflection.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 12,
+      "value": "\"auth_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/Deflection.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/Deflection.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 12,
+      "value": "\"auth_token\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Provider\/Deflection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 186,
+      "value": "\"The Zendesk instance passed into initialize(withZendesk:) was nil.\nFailed to initialize the Answer Bot SDK, have you initialized the Core SDK?\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 2051,
+      "length": 47,
+      "value": "\"Initializing Answer Bot with the same details\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 2231,
+      "length": 29,
+      "value": "\"Initializing AnswerBot SDK.\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 47,
+      "value": "\"Initialized Providers with UUID: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 2593,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 3031,
+      "length": 67,
+      "value": "\"Instance of Support is nil, have you initialized the Support SDK?\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Config\/AnswerBot.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 9,
+      "value": "\"AnswerBotProvidersSDK.AnswerBot\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 12,
+      "value": "\"SDKVersion\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1043,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 7,
+      "value": "\" version number is not set in plist\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/Common\/Common\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 15,
+      "value": "\"1.0.0-default\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/AnswerBotEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 5,
+      "value": "\"get\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/AnswerBotEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 6,
+      "value": "\"post\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/AnswerBotEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 8,
+      "value": "\"delete\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/EndpointsReader\/AnswerBotEndpoint.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 5,
+      "value": "\"put\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "Array",
+      "offset": 1285,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 8,
+      "value": "\"via_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1758,
+      "length": 23,
+      "value": "\"deflection_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 23,
+      "value": "\"interaction_reference\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 28,
+      "value": "\"interaction_reference_type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 10,
+      "value": "\"brand_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 8,
+      "value": "\"via_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1758,
+      "length": 23,
+      "value": "\"deflection_channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 23,
+      "value": "\"interaction_reference\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 28,
+      "value": "\"interaction_reference_type\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Model\/InteractionRequestBody.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 10,
+      "value": "\"brand_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Dispatcher\/AnswerBotDispatcherResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1081,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/AnswerBotProvidersSDK\/AnswerBotProvidersSDK\/Source\/Dispatcher\/AnswerBotDispatcherResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 27,
+      "value": "\"AnswerBotProvidersSDK.AnswerBotDispatcherResponse\""
+    }
+  ]
+}
