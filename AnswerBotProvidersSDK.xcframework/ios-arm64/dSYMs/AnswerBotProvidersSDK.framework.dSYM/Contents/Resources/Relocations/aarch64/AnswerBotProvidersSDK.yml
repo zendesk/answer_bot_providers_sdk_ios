@@ -127,7 +127,7 @@ relocations:
   - { offsetInCU: 0xE52, offset: 0x58175, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tg5Tf4nnd_n', symObjAddr: 0x1834, symBinAddr: 0x6488, symSize: 0xC4 }
   - { offsetInCU: 0xF12, offset: 0x58235, size: 0x8, addend: 0x0, symName: '_$sSasSQRzlE2eeoiySbSayxG_ABtFZ21AnswerBotProvidersSDK17DeflectionArticleC_Tg5Tf4nnd_n', symObjAddr: 0x1CFC, symBinAddr: 0x68FC, symSize: 0x364 }
   - { offsetInCU: 0x27, offset: 0x5848C, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsC0aB7Variant_WZ', symObjAddr: 0x0, symBinAddr: 0x6C60, symSize: 0x28 }
-  - { offsetInCU: 0x4B, offset: 0x584B0, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsC0aB7VariantSSvpZ', symObjAddr: 0x1958, symBinAddr: 0x21FB0, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x584B0, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsC0aB7VariantSSvpZ', symObjAddr: 0x1948, symBinAddr: 0x21FB0, symSize: 0x0 }
   - { offsetInCU: 0x59, offset: 0x584BE, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsC0aB7Variant_WZ', symObjAddr: 0x0, symBinAddr: 0x6C60, symSize: 0x28 }
   - { offsetInCU: 0x7F, offset: 0x584E4, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsCfD', symObjAddr: 0x28, symBinAddr: 0x6C88, symSize: 0x10 }
   - { offsetInCU: 0xAF, offset: 0x58514, size: 0x8, addend: 0x0, symName: '_$s21AnswerBotProvidersSDK9ConstantsCMa', symObjAddr: 0x38, symBinAddr: 0x6C98, symSize: 0x20 }

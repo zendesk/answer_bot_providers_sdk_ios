@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W7bc3fr+9rr4KgUHQCEKu/I3FCo=
+		iofZLixt9CPqNjxgvcX+wzqeHiY=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GTj9YpUWCj67fFx6lZGJtVYmoA0=
+		5UcAFB4SXnVbf4TADz1ftHbWvJw=
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,11 +58,15 @@
 		</data>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iDYXDV4GIJIP9fAM2GILzGkcm38=
+		IcoDQzxb7ODFXjNCGlf1/zx6vyE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		G9n/OnU0kCXohB4x5MZv4tJ4rY0=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		oJK3GJQLyM4VzYUYMOO0qkRt5FQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -120,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MppKqfvRaEVJbKSymO5cjVo6vmiUdu4rASlM/cs3SNw=
+			4tY83wVMw4jrJkRvyWGXCz/++YgsqzbirqNfnKm6YuU=
 			</data>
 		</dict>
 		<key>Modules/AnswerBotProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -155,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cFDDW6g+2EQTqDWLoKkHZRODRC6Ke4pXLdW6qGIk2pI=
+			cSwgDUNq7aDka1UvnYKfu13eq/vijhdVdoHDQHUlDq4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -163,6 +167,13 @@
 			<key>hash2</key>
 			<data>
 			IwzSka4aAqm3la0hDhmwkEfXO8eUdFEBWrH0pfBu2sk=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4+4t71T6nEr8Q/LL6qjoUzJxVTZHYRA1V7yrkzX5a4o=
 			</data>
 		</dict>
 	</dict>
